@@ -3,7 +3,7 @@ const path = require('path');
 const { logMethod } = require('./middleware/logMethod'); // middlewware
 const api = require('./routes/index');
 
-const PORT = process.env.port || 3001;
+const PORT = process.env.PORT || 3001;
 
 const app = express();
 
